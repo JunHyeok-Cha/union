@@ -5,5 +5,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public class controller {
+
     double haha =3.0;
 }

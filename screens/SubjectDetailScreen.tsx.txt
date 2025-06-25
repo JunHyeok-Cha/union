@@ -1,0 +1,12 @@
+import { View, Text } from 'react-native';
+
+export default function SubjectDetailScreen({ route }) {
+  const { subject } = route.params;
+
+  return (
+    <View style={{ flex: 1, padding: 20 }}>
+      <Text style={{ fontSize: 22, fontWeight: 'bold' }}>{subject.title}</Text>
+      <Text style={{ marginTop: 10 }}>진도율: {(subject.progress * 100).toFixed(1)}%</Text>
+    </View>
+  );
+}
