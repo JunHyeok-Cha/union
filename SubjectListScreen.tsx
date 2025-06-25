@@ -3,7 +3,7 @@ import { View, Text, TouchableOpacity, FlatList } from 'react-native';
 const subjects = [
   { id: '1', title: '객체지향', progress: 0.56 },
   { id: '2', title: '구조', progress: 0.40 },
-  { id: '3', title: '선형대수', progress: 0.60 },
+  { id: '3', title: '대수', progress: 0.60 },
 ];
 
 export default function SubjectListScreen({ navigation }) {
